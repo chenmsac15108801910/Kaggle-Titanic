@@ -45,5 +45,6 @@ def processdata(csvdata):
     print(select_data)
     select_data.to_csv('Processed'+csvdata+'.csv',index = False)
 
+    
 processdata('train')
 processdata('test')
